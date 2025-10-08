@@ -5,61 +5,49 @@ import profileHeader from "@/assets/profile-header.jpg";
 
 const Resume = () => {
   const skills = [
-    "JavaScript", "TypeScript", "React", "Node.js", "Python", "SQL",
-    "Git", "Docker", "AWS", "REST APIs", "GraphQL", "Agile"
+    "Python", "Machine Learning", "TensorFlow", "PyTorch", "AI/ML", "Deep Learning",
+    "JavaScript", "React", "Chrome Extensions", "Flask", "SQL", "Git"
   ];
 
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "University of Technology",
-      year: "2018 - 2020",
-      gpa: "3.8/4.0"
+      degree: "Bachelor of Engineering in Computer Science",
+      institution: "Sri Sairam College of Engineering",
+      year: "2022 - Present (3rd Year)",
+      gpa: ""
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
-      institution: "State University",
-      year: "2014 - 2018",
-      gpa: "3.6/4.0"
+      degree: "Pre-University College (PUC)",
+      institution: "Kumarns PUC",
+      year: "2020 - 2022",
+      gpa: ""
     }
   ];
 
   const experience = [
     {
-      title: "Senior Software Engineer",
-      company: "Tech Solutions Inc.",
-      period: "2021 - Present",
-      description: "Led development of enterprise web applications, mentored junior developers, and implemented CI/CD pipelines."
-    },
-    {
-      title: "Software Engineer",
-      company: "Digital Innovations Ltd.",
-      period: "2020 - 2021",
-      description: "Developed and maintained full-stack applications using React and Node.js, collaborated with cross-functional teams."
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Hub",
-      period: "2018 - 2020",
-      description: "Built responsive web interfaces, participated in code reviews, and contributed to open-source projects."
+      title: "AI/ML Intern",
+      company: "Maitrii Infotech",
+      period: "2024",
+      description: "Worked on machine learning projects including plant disease detection system. Gained hands-on experience in developing and deploying AI models for real-world applications."
     }
   ];
 
   const projects = [
     {
-      name: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration and real-time inventory management",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"]
+      name: "Phishing Detector",
+      description: "Chrome extension that detects and alerts users about potential phishing websites using machine learning algorithms",
+      tech: ["JavaScript", "Chrome API", "Python", "ML"]
     },
     {
-      name: "Task Management System",
-      description: "Collaborative project management tool with real-time updates and team communication features",
-      tech: ["TypeScript", "React", "Firebase", "Material-UI"]
+      name: "Plant Disease Detector",
+      description: "AI-powered system to identify plant diseases from images, developed during internship at Maitrii Infotech",
+      tech: ["Python", "TensorFlow", "CNN", "Flask"]
     },
     {
-      name: "Analytics Dashboard",
-      description: "Data visualization platform for business metrics with customizable reports and exports",
-      tech: ["React", "D3.js", "Python", "PostgreSQL"]
+      name: "College Hall Booking System",
+      description: "Web-based system for managing and booking college halls and auditoriums, built for Sri Sairam College of Engineering",
+      tech: ["React", "Node.js", "MySQL", "Express"]
     }
   ];
 
@@ -74,26 +62,26 @@ const Resume = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-primary/80 to-primary/95" />
         </div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">John Doe</h1>
-          <p className="text-xl text-white/90 mb-6">Senior Software Engineer</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Prajwal H M</h1>
+          <p className="text-xl text-white/90 mb-6">AI/ML Developer & Computer Science Student</p>
           <div className="flex flex-wrap gap-4 text-white/90">
-            <a href="mailto:john.doe@email.com" className="flex items-center gap-2 hover:text-white section-transition">
+            <a href="mailto:phm340701@gmail.com" className="flex items-center gap-2 hover:text-white section-transition">
               <Mail className="w-4 h-4" />
-              <span>john.doe@email.com</span>
+              <span>phm340701@gmail.com</span>
             </a>
-            <a href="tel:+1234567890" className="flex items-center gap-2 hover:text-white section-transition">
+            <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-white section-transition">
               <Phone className="w-4 h-4" />
-              <span>+1 (234) 567-890</span>
+              <span>+91 98765 43210</span>
             </a>
             <span className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA</span>
+              <span>Bangalore, Karnataka</span>
             </span>
-            <a href="https://linkedin.com" className="flex items-center gap-2 hover:text-white section-transition">
+            <a href="https://linkedin.com/in/prajwalhm" className="flex items-center gap-2 hover:text-white section-transition">
               <Linkedin className="w-4 h-4" />
               <span>LinkedIn</span>
             </a>
-            <a href="https://github.com" className="flex items-center gap-2 hover:text-white section-transition">
+            <a href="https://github.com/prajwalhm" className="flex items-center gap-2 hover:text-white section-transition">
               <Github className="w-4 h-4" />
               <span>GitHub</span>
             </a>
@@ -113,9 +101,9 @@ const Resume = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground leading-relaxed">
-                Passionate software engineer with 5+ years of experience building scalable web applications.
-                Specialized in full-stack development with expertise in modern JavaScript frameworks and cloud technologies.
-                Proven track record of delivering high-quality solutions and leading development teams to success.
+                Passionate Computer Science student and AI/ML enthusiast currently pursuing Bachelor of Engineering at Sri Sairam College of Engineering.
+                Experienced in developing machine learning models and web applications with hands-on internship experience at Maitrii Infotech.
+                Certified in AI technologies by NVIDIA and Microsoft Azure, with a strong foundation in deep learning and cloud computing.
               </p>
             </CardContent>
           </Card>
@@ -159,7 +147,6 @@ const Resume = () => {
                     <p className="text-muted-foreground">{edu.institution}</p>
                     <div className="flex items-center gap-4 mt-1 text-sm">
                       <span className="text-muted-foreground">{edu.year}</span>
-                      <span className="text-primary font-medium">GPA: {edu.gpa}</span>
                     </div>
                   </div>
                 ))}
@@ -220,12 +207,40 @@ const Resume = () => {
             </CardContent>
           </Card>
         </section>
+
+        {/* Certifications Section */}
+        <section className="mb-12">
+          <Card className="card-hover">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-2xl">
+                <GraduationCap className="w-6 h-6 text-primary" />
+                Certifications
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div className="border-l-2 border-primary pl-4">
+                  <h3 className="font-semibold text-lg">Generative AI with Diffusion Models</h3>
+                  <p className="text-muted-foreground">NVIDIA</p>
+                </div>
+                <div className="border-l-2 border-primary pl-4">
+                  <h3 className="font-semibold text-lg">Azure Fundamentals Cloud Certification</h3>
+                  <p className="text-muted-foreground">Microsoft</p>
+                </div>
+                <div className="border-l-2 border-primary pl-4">
+                  <h3 className="font-semibold text-lg">Generative AI Workshop</h3>
+                  <p className="text-muted-foreground">Indian Institute of Science (IISc), Bangalore</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
       </div>
 
       {/* Footer */}
       <footer className="border-t border-border py-6 mt-12">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2024 John Doe. All rights reserved.</p>
+          <p>&copy; 2024 Prajwal H M. All rights reserved.</p>
         </div>
       </footer>
     </div>

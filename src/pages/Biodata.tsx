@@ -3,42 +3,42 @@ import { User } from "lucide-react";
 
 const Biodata = () => {
   const personalInfo = [
-    { label: "Full Name", value: "John Michael Doe" },
-    { label: "Date of Birth", value: "January 15, 1995" },
-    { label: "Age", value: "29 years" },
+    { label: "Full Name", value: "Prajwal H M" },
+    { label: "Date of Birth", value: "October 2, 2005" },
+    { label: "Age", value: "19 years" },
     { label: "Gender", value: "Male" },
-    { label: "Nationality", value: "American" },
+    { label: "Nationality", value: "Indian" },
     { label: "Marital Status", value: "Single" },
-    { label: "Religion", value: "Christian" },
-    { label: "Blood Group", value: "O+" }
+    { label: "Religion", value: "Hindu" },
+    { label: "Blood Group", value: "B+" }
   ];
 
   const contactInfo = [
-    { label: "Email", value: "john.doe@email.com" },
-    { label: "Phone", value: "+1 (234) 567-890" },
-    { label: "Alternate Phone", value: "+1 (234) 567-891" },
-    { label: "Address", value: "123 Main Street, Apt 4B" },
-    { label: "City", value: "San Francisco" },
-    { label: "State", value: "California" },
-    { label: "ZIP Code", value: "94102" },
-    { label: "Country", value: "United States" }
+    { label: "Email", value: "phm340701@gmail.com" },
+    { label: "Phone", value: "+91 98765 43210" },
+    { label: "Alternate Phone", value: "+91 87654 32109" },
+    { label: "Address", value: "123 MG Road, Jayanagar" },
+    { label: "City", value: "Bangalore" },
+    { label: "State", value: "Karnataka" },
+    { label: "PIN Code", value: "560011" },
+    { label: "Country", value: "India" }
   ];
 
   const familyInfo = [
-    { label: "Father's Name", value: "Michael Robert Doe" },
+    { label: "Father's Name", value: "Harish M" },
     { label: "Father's Occupation", value: "Business Owner" },
-    { label: "Mother's Name", value: "Sarah Elizabeth Doe" },
-    { label: "Mother's Occupation", value: "Teacher" },
-    { label: "Siblings", value: "1 Brother, 1 Sister" }
+    { label: "Mother's Name", value: "Manjula H" },
+    { label: "Mother's Occupation", value: "Homemaker" },
+    { label: "Siblings", value: "1 Sister" }
   ];
 
   const additionalInfo = [
-    { label: "Languages Known", value: "English (Native), Spanish (Fluent), French (Basic)" },
-    { label: "Hobbies", value: "Reading, Coding, Hiking, Photography" },
-    { label: "Emergency Contact", value: "Sarah Doe - +1 (234) 567-892" },
-    { label: "LinkedIn", value: "linkedin.com/in/johndoe" },
-    { label: "GitHub", value: "github.com/johndoe" },
-    { label: "Portfolio", value: "johndoe.dev" }
+    { label: "Languages Known", value: "English, Hindi, Kannada" },
+    { label: "Hobbies", value: "Machine Learning, Coding, Reading Tech Blogs, Gaming" },
+    { label: "Emergency Contact", value: "Harish M - +91 98765 43211" },
+    { label: "LinkedIn", value: "linkedin.com/in/prajwalhm" },
+    { label: "GitHub", value: "github.com/prajwalhm" },
+    { label: "Portfolio", value: "prajwalhm.dev" }
   ];
 
   const InfoSection = ({ title, data }: { title: string; data: { label: string; value: string }[] }) => (
@@ -97,7 +97,7 @@ const Biodata = () => {
                 I understand that any false information may result in the rejection of my application or termination of employment.
               </p>
               <div className="mt-6 pt-4 border-t border-border">
-                <p className="font-medium">John Michael Doe</p>
+                <p className="font-medium">Prajwal H M</p>
                 <p className="text-sm text-muted-foreground">Date: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
               </div>
             </CardContent>
@@ -108,7 +108,7 @@ const Biodata = () => {
       {/* Footer */}
       <footer className="border-t border-border py-6 mt-12">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; 2024 John Doe. All rights reserved.</p>
+          <p>&copy; 2024 Prajwal H M. All rights reserved.</p>
         </div>
       </footer>
     </div>
